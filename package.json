@@ -2,11 +2,14 @@
   "name": "@mono-repo/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "test": "nx run plugin-a:test"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
     "@emotion/styled": "11.11.0",
+    "@nx/devkit": "19.1.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "tslib": "^2.3.0"
@@ -19,6 +22,7 @@
     "@nx/eslint-plugin": "19.1.1",
     "@nx/jest": "19.1.1",
     "@nx/js": "19.1.1",
+    "@nx/plugin": "19.1.1",
     "@nx/react": "19.1.1",
     "@nx/web": "19.1.1",
     "@nx/webpack": "19.1.1",
